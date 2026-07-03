@@ -88,14 +88,12 @@ bash tools/build.sh
 Requires `openpyxl` (`pip install openpyxl --break-system-packages`). No other
 dependencies. The site itself needs nothing installed.
 
-## Deploy (GitHub Pages via Actions)
+## Deploy (GitHub Pages, branch deploy)
 
-This repo publishes the `public/` folder through a GitHub Actions workflow
-(`.github/workflows/pages.yml`). GitHub Pages "deploy from a branch" can only
-serve the repo root or a `/docs` folder, not `public/`, so the workflow uploads
-`public/` as the Pages artifact instead. Enable it once under Settings → Pages →
-Source: GitHub Actions. Every push to `main` redeploys. The included `.nojekyll`
-prevents Jekyll from touching the assets. Live at
+The site lives at the repository root, so GitHub Pages serves it directly with no
+build step. One-time setup: Settings > Pages > Build and deployment > Source set
+to "Deploy from a branch", Branch `main`, Folder `/ (root)`. Every push to `main`
+redeploys. The `.nojekyll` file keeps Jekyll from touching the assets. Live at
 `https://rbndchsn.github.io/sb_portal/`.
 
 ## Honest limitations
