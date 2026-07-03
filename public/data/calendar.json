@@ -1,0 +1,319 @@
+{
+  "deadlines": [
+    {
+      "date": "Jun 30, 2022",
+      "status": "Past",
+      "type": "STAT",
+      "who": "Legislature / Governor",
+      "action": "SB 54 signed into law (Chapter 75, Statutes of 2022).",
+      "basis": "PRC §42040 et seq.",
+      "ref": ""
+    },
+    {
+      "date": "Jul 1, 2023",
+      "status": "Past",
+      "type": "STAT",
+      "who": "CalRecycle director",
+      "action": "Producer Responsibility Advisory Board members appointed.",
+      "basis": "§42070(b)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 1, 2024",
+      "status": "Past",
+      "type": "STAT",
+      "who": "Producers",
+      "action": "Statutory deadline to form and join a PRO.",
+      "basis": "§42051(a)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 5, 2024",
+      "status": "Past",
+      "type": "REG",
+      "who": "CalRecycle",
+      "action": "Circular Action Alliance (CAA) selected as the state's sole, inaugural PRO.",
+      "basis": "Sources",
+      "ref": "1"
+    },
+    {
+      "date": "Jul 1, 2024",
+      "status": "Past",
+      "type": "REG",
+      "who": "CalRecycle",
+      "action": "Covered Material Categories list first published (updated Dec 2024).",
+      "basis": "§42061(a)(1)",
+      "ref": "1"
+    },
+    {
+      "date": "Sep 11, 2024",
+      "status": "Past",
+      "type": "REG",
+      "who": "CalRecycle",
+      "action": "Notice on EPS food service ware recycling-rate demonstration.",
+      "basis": "§42057(i)",
+      "ref": "1"
+    },
+    {
+      "date": "Dec 31, 2024",
+      "status": "Past",
+      "type": "STAT",
+      "who": "CalRecycle",
+      "action": "Plastic source-reduction baseline + Technical Report published (satisfies the ~1/1/2025 baseline).",
+      "basis": "§42057(b)",
+      "ref": "1"
+    },
+    {
+      "date": "Jan 1, 2025",
+      "status": "Past",
+      "type": "STAT",
+      "who": "EPS producers",
+      "action": "EPS food service ware must demonstrate ≥25% recycling rate or be prohibited from sale.",
+      "basis": "§42057(i)(A)",
+      "ref": ""
+    },
+    {
+      "date": "Mar 7, 2025",
+      "status": "Past",
+      "type": "REG",
+      "who": "Governor",
+      "action": "Gov. Newsom directs CalRecycle to restart the SB 54 rulemaking (cost/clarity concerns).",
+      "basis": "Sources",
+      "ref": "2"
+    },
+    {
+      "date": "Jan 9–29, 2026",
+      "status": "Past",
+      "type": "REG",
+      "who": "CalRecycle",
+      "action": "Draft regulations withdrawn from OAL; revised draft + 15-day comment period (1/29–2/13/2026).",
+      "basis": "Sources",
+      "ref": "9"
+    },
+    {
+      "date": "May 1, 2026",
+      "status": "Past",
+      "type": "REG",
+      "who": "OAL / CalRecycle",
+      "action": "PERMANENT REGULATIONS APPROVED & EFFECTIVE (Title 14 CCR, Div. 7, Ch. 11.1). PEPRS portal launched; Producer Guidance site + estimated fee-rate ranges published.",
+      "basis": "Sources",
+      "ref": "3"
+    },
+    {
+      "date": "May 31, 2026",
+      "status": "Past",
+      "type": "CAA",
+      "who": "Producers (CAA participants)",
+      "action": "2026 CA Producer Report (CY2025 data) + 2026 CA Annual Source Reduction Report (CY2025 data) due to CAA.",
+      "basis": "Sources",
+      "ref": "4"
+    },
+    {
+      "date": "Jun 1, 2026",
+      "status": "Past",
+      "type": "REG",
+      "who": "Producers",
+      "action": "REGISTRATION DEADLINE (30 days from 5/1; Sun→Mon): (a) join CAA + submit 2023 baseline data; (b) register w/ CalRecycle as Independent Producer; or (c) apply Small Producer Exemption.",
+      "basis": "§42051(b); Sources",
+      "ref": "5"
+    },
+    {
+      "date": "Jun 2, 2026",
+      "status": "Past",
+      "type": "REL",
+      "who": "NGO coalition",
+      "action": "NGO SUIT FILED (confirmed): NRDC + Californians Against Waste Fdn + Oceana petition CalRecycle in SF Superior Court — regs allegedly inconsistent with SB 54 (chemical recycling, exclusions, toxics-fee explanation, federal-conflict basis).",
+      "basis": "Sources",
+      "ref": "17"
+    },
+    {
+      "date": "Jun 15, 2026",
+      "status": "Past",
+      "type": "CAA",
+      "who": "CAA",
+      "action": "CONFIRMED: CAA submitted draft California Program Plan (~350 pp) to the advisory board; 2027 budget projected up to $1.87B (5-yr $9.35B–$17.2B). Public comment opens.",
+      "basis": "Sources",
+      "ref": "18"
+    },
+    {
+      "date": "Jun 22, 2026",
+      "status": "Past",
+      "type": "REL",
+      "who": "17 state AGs + NAW",
+      "action": "FEDERAL SUIT FILED (confirmed): Nebraska-led 17-state coalition + NAW v. Heller & CAA (E.D. Cal., No. 2:26-at-01047) — asks the court to BLOCK enforcement; Commerce Clause, 1st Amendment (speech + compelled association), unlawful delegation to a private PRO.",
+      "basis": "Sources",
+      "ref": "15"
+    },
+    {
+      "date": "Jun 26, 2026",
+      "status": "Upcoming",
+      "type": "REG",
+      "who": "Advisory Board / CAA",
+      "action": "SB 54 Advisory Board meeting (CalEPA HQ, Sierra Hearing Room, Sacramento; 10a–4p); CAA presents the draft program plan.",
+      "basis": "Sources",
+      "ref": "19"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "Producers / CAA",
+      "action": "2023 baseline producer report due (CAA compiles→CalRecycle; independents report directly to CalRecycle).",
+      "basis": "§42057; Sources",
+      "ref": "7"
+    },
+    {
+      "date": "Jul 8, 2026",
+      "status": "Upcoming",
+      "type": "CAA",
+      "who": "CAA",
+      "action": "CAA informational webinar on the draft California Program Plan.",
+      "basis": "Sources",
+      "ref": "18"
+    },
+    {
+      "date": "Jul 13–17, 2026",
+      "status": "Upcoming",
+      "type": "REL",
+      "who": "Oregon court",
+      "action": "Oregon EPR merits trial (NAW v. Feldon), Portland — Oregon's law was the first state EPR law blocked by preliminary injunction (Feb 2026); the outcome may shape how courts treat the SB 54 challenges.",
+      "basis": "Sources",
+      "ref": "15"
+    },
+    {
+      "date": "~Aug 1, 2026",
+      "status": "Upcoming",
+      "type": "CAA",
+      "who": "Producers",
+      "action": "Individual Source Reduction Plans due (exact date still to be confirmed by CAA).",
+      "basis": "Sources",
+      "ref": "7"
+    },
+    {
+      "date": "Aug 14, 2026",
+      "status": "Upcoming",
+      "type": "REG",
+      "who": "Public / CAA",
+      "action": "CAA California Program Plan public comment period closes.",
+      "basis": "Sources",
+      "ref": "6"
+    },
+    {
+      "date": "Mid-2026",
+      "status": "Upcoming",
+      "type": "CAA",
+      "who": "CAA → Producers",
+      "action": "'Early fees' invoiced, based on the 2026 supply report (CY2025 data) — not on the 2023 baseline report.",
+      "basis": "Sources",
+      "ref": "7"
+    },
+    {
+      "date": "Oct 4, 2026",
+      "status": "Upcoming",
+      "type": "REL",
+      "who": "Producers",
+      "action": "SB 343 'chasing-arrows' enforcement begins; SB 343 recyclability determinations feed SB 54 (challenge pending).",
+      "basis": "Sources",
+      "ref": "13"
+    },
+    {
+      "date": "Oct 2026",
+      "status": "Upcoming",
+      "type": "CAA",
+      "who": "CAA → CalRecycle",
+      "action": "CAA submits the FINAL California Program Plan to CalRecycle (after incorporating public comment on the June draft).",
+      "basis": "Sources",
+      "ref": "18"
+    },
+    {
+      "date": "Nov 1, 2026",
+      "status": "Upcoming",
+      "type": "REG",
+      "who": "CalRecycle",
+      "action": "CalRecycle updates the statewide source-reduction baseline using 2023 data.",
+      "basis": "Sources",
+      "ref": "7"
+    },
+    {
+      "date": "Jan 1, 2027",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "Producers / PRO",
+      "action": "FULL PROGRAM IMPLEMENTATION. Programme fees begin. Sales-restriction enforcement: must be in an approved PRO plan (or compliant individually) to sell covered materials.",
+      "basis": "§42051(b); Sources",
+      "ref": "4"
+    },
+    {
+      "date": "Jan 1, 2027",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "PRO",
+      "action": "Source-reduction interim: ≥10% of plastic covered material reduced, incl. ≥2% via reuse/refill.",
+      "basis": "§42057(a)(2)(C)",
+      "ref": ""
+    },
+    {
+      "date": "Mar 1, 2027",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "CalRecycle → CDTFA",
+      "action": "CalRecycle transmits $500M surcharge liability to CDTFA (annually thereafter).",
+      "basis": "§42064(c)",
+      "ref": ""
+    },
+    {
+      "date": "Jul 1, 2027",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "PRO / Producers",
+      "action": "Environmental mitigation surcharge due (annually). PRO begins remitting $500M/yr to the Plastic Pollution Mitigation Fund. Non-PRO producers pay surcharge set by CalRecycle.",
+      "basis": "§42064(e),(f),(h)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 1, 2028",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "Producers / PRO",
+      "action": "Plastic covered material: 30% recycling rate. EPS food service ware: 30%.",
+      "basis": "§42050(c)(1); §42057(i)(B)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 1, 2030",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "Producers / PRO",
+      "action": "40% recycling rate. Source reduction ≥20% (≥4% reuse/refill). EPS 50%. CalRecycle evaluates surcharge increase.",
+      "basis": "§42050(c)(2); §42057; §42064(i)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 1, 2032",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "Producers / PRO",
+      "action": "END-STATE: 100% covered material recyclable or compostable; 65% plastic recycling rate; 25% source reduction (weight AND plastic components); EPS 65%.",
+      "basis": "§42050(b),(c); §42057(a)",
+      "ref": ""
+    },
+    {
+      "date": "Jan 1, 2037",
+      "status": "Upcoming",
+      "type": "STAT",
+      "who": "—",
+      "action": "$500M surcharge / Plastic Pollution Mitigation Fund provisions repealed (sunset).",
+      "basis": "§42064(n)",
+      "ref": ""
+    }
+  ],
+  "watch": [
+    "STATUS AS OF 3 JULY 2026 — Obligations remain in effect. No court has issued a temporary restraining order, preliminary injunction, or stay against SB 54 in California. The pending lawsuits do not, by themselves, suspend SB 54 compliance; producers must continue to register, report, and prepare for fees. (Holland & Knight; Mondaq, late June 2026.)",
+    "FEDERAL (industry/states) — State of Nebraska et al. v. Heller et al., No. 2:26-at-01047, E.D. Cal., filed 22 June 2026. Seventeen state AGs + NAW (sole business plaintiff) seek to BLOCK enforcement on Commerce Clause, Import-Export Clause, First Amendment (compelled association + content-based speech), Due Process, and unlawful-delegation grounds. Defendants: CalRecycle Director Zoe Heller and Circular Action Alliance. No injunctive relief granted to date.",
+    "STATE (environmental) — NRDC + Californians Against Waste Foundation + Oceana v. CalRecycle, SF Superior Court, filed 2 June 2026. Argues the final regulations are WEAKER than SB 54 requires (chemical/advanced recycling counting, exclusions, inadequately explained toxics fee, federal-conflict basis). Pressures the regs from the opposite direction.",
+    "OREGON precedent — NAW v. Feldon: NAW members already hold a preliminary injunction (Feb 2026, the first state EPR law blocked); merits trial 13-17 July 2026, Portland. A SECOND Oregon suit — a class action for non-NAW producers — was filed 25 June 2026 with substantially similar claims; its injunction request is undecided. A producer-favorable ruling would be cited in the California federal case.",
+    "COLORADO parallel — Industry challenge in Colorado state court (filed Mar 2026) raises similar due-process and nondelegation claims; CDPHE's motion to dismiss is set for a hearing in July 2026. Colorado obligations also remain in effect meanwhile.",
+    "SB 343 (companion labeling law) — First Amendment challenge by the Flexible Packaging Association + AF&PA; a preliminary-injunction hearing was held in early June 2026 but the court has NOT yet posted a written decision. SB 343 recyclability determinations feed SB 54, so the outcome directly affects what counts as 'recyclable' here. Enforcement set for 4 October 2026.",
+    "POSSIBLE TARGET SLIP — CAA's draft California Program Plan acknowledges that the regulatory delays may require adjustments, including POTENTIALLY POSTPONING the law's 10% source-reduction target otherwise due 1 January 2027. Watch the final plan (October 2026) for confirmation."
+  ]
+}

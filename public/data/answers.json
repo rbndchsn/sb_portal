@@ -1,0 +1,1262 @@
+{
+  "count": 66,
+  "includes_drafts": false,
+  "areas": [
+    {
+      "area": "Scope & Definitions",
+      "count": 9
+    },
+    {
+      "area": "Registration Pathways",
+      "count": 9
+    },
+    {
+      "area": "Exclusions & Exemptions",
+      "count": 6
+    },
+    {
+      "area": "Targets & Timeline",
+      "count": 7
+    },
+    {
+      "area": "Fees & Surcharge",
+      "count": 7
+    },
+    {
+      "area": "Enforcement & Compliance",
+      "count": 7
+    },
+    {
+      "area": "Reporting & Data",
+      "count": 5
+    },
+    {
+      "area": "2026 Operational Steps",
+      "count": 6
+    },
+    {
+      "area": "Litigation Status",
+      "count": 5
+    },
+    {
+      "area": "About This Tool",
+      "count": 5
+    }
+  ],
+  "answers": [
+    {
+      "id": "ans-001",
+      "area": "Scope & Definitions",
+      "question": "Am I a producer under SB 54?",
+      "alts": [
+        "Who counts as a producer?",
+        "Does SB 54 apply to my company?",
+        "Am I covered by SB 54?"
+      ],
+      "answer": "You are a producer if you manufacture a product that uses covered material and you own or license the brand or trademark under which the product is sold or distributed in California. If no such brand owner has a presence in the state, responsibility moves down a hierarchy: to the owner or exclusive licensee of the brand in-state, and if none, to the person who imports or distributes the product into California. A sale is treated as occurring in California when the covered material is delivered to a purchaser in the state.",
+      "citation": "PRC §42041(w); §42041(w)(5)",
+      "status": "approved",
+      "tags": [
+        "producer",
+        "definition",
+        "scope"
+      ]
+    },
+    {
+      "id": "ans-002",
+      "area": "Scope & Definitions",
+      "question": "What is 'covered material'?",
+      "alts": [
+        "What packaging is covered?",
+        "What does SB 54 regulate?",
+        "What materials fall under SB 54?"
+      ],
+      "answer": "Covered material is single-use packaging that is routinely discarded after use rather than refilled or reused by the producer, plus single-use plastic food service ware — including plastic-coated paper or board and multilayer flexible packaging. A number of categories are carved out by statute (see the exclusions question).",
+      "citation": "PRC §42041(e)(1)",
+      "status": "approved",
+      "tags": [
+        "covered",
+        "material",
+        "scope"
+      ]
+    },
+    {
+      "id": "ans-003",
+      "area": "Scope & Definitions",
+      "question": "Does SB 54 apply to me if my business is outside California?",
+      "alts": [
+        "I'm not based in California — am I affected?",
+        "Out-of-state producer obligations",
+        "Does SB 54 reach out of state?"
+      ],
+      "answer": "It can. The obligation attaches to covered material sold, offered for sale, distributed, or imported into California, and a sale is deemed to occur in the state when the material is delivered to a purchaser there. So an out-of-state brand owner whose products reach California can be the responsible producer. Note that this extraterritorial reach is precisely what the 17-state federal lawsuit challenges — but as of this tool's date, obligations remain in effect (see Litigation Status).",
+      "citation": "PRC §42041(w)(5); §42050",
+      "status": "approved",
+      "tags": [
+        "scope",
+        "out-of-state",
+        "interstate"
+      ]
+    },
+    {
+      "id": "ans-004",
+      "area": "Scope & Definitions",
+      "question": "Is empty packaging I sell covered?",
+      "alts": [
+        "Do I have obligations for empty packaging?",
+        "Packaging with no product inside"
+      ],
+      "answer": "Generally no. Under the final regulations, a company is not a producer merely by manufacturing or selling empty packaging; responsibility attaches when covered material accompanies a product placed into California commerce. The regulations also allow responsibility to be split in some arrangements. Confirm your specific situation against Title 14 and with counsel.",
+      "citation": "Final regulations (Title 14 CCR, Ch. 11.1); cf. PRC §42041(w)",
+      "status": "approved",
+      "tags": [
+        "empty",
+        "packaging",
+        "scope",
+        "producer"
+      ]
+    },
+    {
+      "id": "ans-005",
+      "area": "Scope & Definitions",
+      "question": "I grow and package my own agricultural product — am I a producer?",
+      "alts": [
+        "Farm carve-out",
+        "Agricultural commodity exemption from producer status"
+      ],
+      "answer": "No, not for that activity. A person who produces, harvests, and packages an agricultural commodity on the site where it was grown or raised is expressly excluded from the definition of producer.",
+      "citation": "PRC §42041(w)(4)",
+      "status": "approved",
+      "tags": [
+        "agriculture",
+        "carve-out",
+        "producer"
+      ]
+    },
+    {
+      "id": "ans-006",
+      "area": "Scope & Definitions",
+      "question": "If I sell through an online marketplace as a third-party seller, who is the producer?",
+      "alts": [
+        "Online marketplace seller responsibility",
+        "Amazon third-party seller SB 54"
+      ],
+      "answer": "A person who sells covered material as a third-party seller using an online marketplace is treated as the retailer or wholesaler for those transactions, and the marketplace owner or operator is not treated as the retailer or wholesaler for those sales. Where the transaction rolls up to a producer under the hierarchy, standard producer rules apply.",
+      "citation": "PRC §42041(ae)(2); §42041(w)",
+      "status": "approved",
+      "tags": [
+        "online",
+        "marketplace",
+        "third-party",
+        "seller",
+        "producer"
+      ]
+    },
+    {
+      "id": "ans-007",
+      "area": "Registration Pathways",
+      "question": "What are my registration options under SB 54?",
+      "alts": [
+        "Which pathway do I choose?",
+        "How do I register for SB 54?",
+        "What are the three pathways?"
+      ],
+      "answer": "There are three pathways, and you choose one. (1) PRO participation: register with Circular Action Alliance (CAA), the state's sole approved PRO, and submit your baseline supply data — CAA registers you with CalRecycle, sets fees, and reports compliance. (2) Individual compliance: register directly with CalRecycle through the PEPRS portal and assume all PRO-equivalent duties yourself, if you meet the strict criteria. (3) Small Producer Exemption: register with CalRecycle and apply for the exemption if you qualify. Most producers take the PRO pathway.",
+      "citation": "PRC §42051(b); §42051(a)",
+      "status": "approved",
+      "tags": [
+        "pathways",
+        "registration",
+        "CAA",
+        "PEPRS"
+      ]
+    },
+    {
+      "id": "ans-008",
+      "area": "Registration Pathways",
+      "question": "What is the Circular Action Alliance (CAA)?",
+      "alts": [
+        "Who is the PRO?",
+        "What does CAA do?",
+        "Who runs the SB 54 program?"
+      ],
+      "answer": "CAA is the Producer Responsibility Organization selected by CalRecycle as California's sole, inaugural PRO. It registers participating producers, sets and collects fees to fund the program, builds the program plan, and reports compliance to CalRecycle under the agency's oversight. It is a nonprofit funded and overseen by industry.",
+      "citation": "Operational: CalRecycle selection (Jan 2024); PRC §42051",
+      "status": "approved",
+      "tags": [
+        "CAA",
+        "PRO",
+        "registration"
+      ]
+    },
+    {
+      "id": "ans-009",
+      "area": "Registration Pathways",
+      "question": "Can I comply on my own instead of joining the PRO?",
+      "alts": [
+        "Individual compliance option",
+        "Do I have to join CAA?",
+        "Self-compliance under SB 54"
+      ],
+      "answer": "Yes, if you meet the individual-compliance criteria. You register with CalRecycle, develop and implement a plan meeting all the requirements of a producer responsibility plan (including a source reduction plan), fully cover your share of the costs of implementing the chapter, and annually report your data. The qualifying test is demanding — see the individual-compliance criteria question.",
+      "citation": "PRC §42051(b)(2)(B)",
+      "status": "approved",
+      "tags": [
+        "individual",
+        "compliance",
+        "pathways"
+      ]
+    },
+    {
+      "id": "ans-010",
+      "area": "Registration Pathways",
+      "question": "What are the criteria to qualify for individual compliance?",
+      "alts": [
+        "Individual compliance test",
+        "Can I self-comply — do I qualify?"
+      ],
+      "answer": "You must meet one of two demanding tests: either (i) a recycling rate of at least 65% for three consecutive years before 2027, then at least 70%; OR all of a set of source-reduction and coverage showings — net at least 5% source reduction 2013–2022 via refill/reuse/elimination, net at least 8% via optimization/concentration/right-sizing/bulk/non-plastic/lightweighting, and at least 75% of your California covered material meeting further conditions. Because the bar is high, most producers use the PRO pathway.",
+      "citation": "PRC §42051(b)(2)",
+      "status": "approved",
+      "tags": [
+        "individual",
+        "compliance",
+        "criteria",
+        "pathways"
+      ]
+    },
+    {
+      "id": "ans-011",
+      "area": "Registration Pathways",
+      "question": "How do I register — what portal do I use?",
+      "alts": [
+        "Where do I register?",
+        "PEPRS portal",
+        "CAA producer portal"
+      ],
+      "answer": "It depends on your pathway. PRO participants register through the CAA producer portal. Independent producers and small-producer-exemption applicants register with CalRecycle through the PEPRS portal, which launched with the permanent regulations on 1 May 2026.",
+      "citation": "Operational: PEPRS launch 1 May 2026; PRC §42051(b)",
+      "status": "approved",
+      "tags": [
+        "registration",
+        "PEPRS",
+        "CAA",
+        "portal"
+      ]
+    },
+    {
+      "id": "ans-012",
+      "area": "Registration Pathways",
+      "question": "I become a producer after the deadline — what do I do?",
+      "alts": [
+        "Late producer registration",
+        "New producer after 2027",
+        "Missed the registration window"
+      ],
+      "answer": "If you were not a producer before 1 January 2027 but become one after that date by beginning to sell, offer, import, or distribute covered material in California, you must become a participant of the PRO and comply within six months. (For becoming a producer before 1 January 2027, the window is shorter — within 30 days.)",
+      "citation": "PRC §42051(b)(1)",
+      "status": "approved",
+      "tags": [
+        "registration",
+        "new",
+        "producer",
+        "deadline"
+      ]
+    },
+    {
+      "id": "ans-013",
+      "area": "Exclusions & Exemptions",
+      "question": "What's the difference between an exclusion and an exemption?",
+      "alts": [
+        "Exclusion vs exemption",
+        "Are exclusions and exemptions the same thing?"
+      ],
+      "answer": "They are fundamentally different. An EXCLUSION is categorical and permanent — the material is simply never 'covered' by SB 54. An EXEMPTION is a status a producer must earn and re-prove over time, and CalRecycle can decline it. Mischaracterizing one as the other is a common and consequential error: treating an earned exemption as if it were a permanent exclusion can leave you out of compliance when the exemption lapses.",
+      "citation": "PRC §42041(e); §42060(a)(5)",
+      "status": "approved",
+      "tags": [
+        "exclusion",
+        "exemption",
+        "strategy"
+      ]
+    },
+    {
+      "id": "ans-014",
+      "area": "Exclusions & Exemptions",
+      "question": "What materials are excluded from SB 54?",
+      "alts": [
+        "Statutory exclusions list",
+        "What packaging is out of scope?",
+        "What's not covered material?"
+      ],
+      "answer": "Statutory exclusions include packaging for medical devices and prescription drugs, animal drugs, infant formula, medical food, and fortified oral nutrition; FIFRA-regulated pesticides; dangerous-goods and hazardous-materials transport packaging; certain OSHA hazardous or flammable substance packaging; beverage containers already covered by the Bottle Bill; and long-term packaging designed for a product lifespan of at least five years. These are categorical — the material is never covered.",
+      "citation": "PRC §42041(e) (exclusions)",
+      "status": "approved",
+      "tags": [
+        "exclusion",
+        "scope",
+        "out",
+        "of",
+        "scope"
+      ]
+    },
+    {
+      "id": "ans-015",
+      "area": "Exclusions & Exemptions",
+      "question": "How does the performance exemption work?",
+      "alts": [
+        "Earned exemption",
+        "Recycling-rate exemption",
+        "Can I earn my way out?"
+      ],
+      "answer": "The performance exemption is conditional and earned. Broadly, material that is not residentially collected, not separated at a commingled MRF, is recycled at a responsible end market, and has achieved at least a 65% recycling rate for three years before 2027 (then at least 70%) can qualify — and you must prove it to CalRecycle every two years. Partial qualification only exempts the qualifying portion. This is a status you maintain, not a permanent carve-out.",
+      "citation": "PRC §42041(e)(2)(H)",
+      "status": "approved",
+      "tags": [
+        "exemption",
+        "performance",
+        "recycling",
+        "rate"
+      ]
+    },
+    {
+      "id": "ans-016",
+      "area": "Exclusions & Exemptions",
+      "question": "I'm a small producer — am I exempt?",
+      "alts": [
+        "Small producer exemption threshold",
+        "Under $1 million sales exemption",
+        "Do small businesses get a pass?"
+      ],
+      "answer": "Possibly, but not fully. A producer with less than $1,000,000 in gross California sales in the most recent calendar year may be exempted from most requirements — but never from the §42050(b) requirement that covered material be recyclable or compostable. Critically, CalRecycle may decline the exemption if granting it would impede a material category's compliance. You still register and apply; the exemption is not automatic.",
+      "citation": "PRC §42060(a)(5); §42060(a)(5)(B); §42050(b)",
+      "status": "approved",
+      "tags": [
+        "small",
+        "producer",
+        "exemption",
+        "threshold"
+      ]
+    },
+    {
+      "id": "ans-017",
+      "area": "Targets & Timeline",
+      "question": "What are the SB 54 recycling rate targets?",
+      "alts": [
+        "Plastic recycling rate deadlines",
+        "What recycling rates must I hit?",
+        "30 40 65 percent targets"
+      ],
+      "answer": "For plastic covered material, the statutory recycling-rate targets are at least 30% on and after 1 January 2028, at least 40% on and after 1 January 2030, and at least 65% on and after 1 January 2032. These are program-level obligations tracked through PRO reporting.",
+      "citation": "PRC §42050(c)(1)–(3)",
+      "status": "approved",
+      "tags": [
+        "targets",
+        "recycling",
+        "rate",
+        "timeline"
+      ]
+    },
+    {
+      "id": "ans-018",
+      "area": "Targets & Timeline",
+      "question": "When does everything have to be recyclable or compostable?",
+      "alts": [
+        "100% recyclable compostable deadline",
+        "2032 recyclability requirement"
+      ],
+      "answer": "By 1 January 2032, all covered material offered for sale, distributed, or imported into California must be recyclable in the state or eligible to be labeled compostable. Note that 'recyclable' is defined to include reuse and depends in part on SB 343 recyclability determinations.",
+      "citation": "PRC §42050(b); §42355 (compostable labeling)",
+      "status": "approved",
+      "tags": [
+        "targets",
+        "recyclable",
+        "compostable",
+        "2032"
+      ]
+    },
+    {
+      "id": "ans-019",
+      "area": "Targets & Timeline",
+      "question": "What are the source reduction requirements?",
+      "alts": [
+        "Plastic source reduction targets",
+        "How much do I have to cut plastic?",
+        "Source reduction schedule"
+      ],
+      "answer": "For plastic covered material, source reduction of at least 20% is required by 2030 and 25% by 2032 (measured by both weight and plastic component count). A portion must come from reuse/refill or elimination — at least 4% of the reduction by 2030 and at least 10% of the reduction by 2032. Note: CAA's draft program plan has flagged that the interim 10% source-reduction step tied to 1 January 2027 could be postponed given regulatory delays (see Litigation Status).",
+      "citation": "PRC §42057(a)",
+      "status": "approved",
+      "tags": [
+        "targets",
+        "source",
+        "reduction",
+        "reuse",
+        "timeline"
+      ]
+    },
+    {
+      "id": "ans-020",
+      "area": "Targets & Timeline",
+      "question": "What are the rules for expanded polystyrene (EPS) food service ware?",
+      "alts": [
+        "EPS foam ban",
+        "Polystyrene recycling rate",
+        "Is foam foodware prohibited?"
+      ],
+      "answer": "EPS food service ware had to demonstrate a recycling rate of at least 25% to CalRecycle before 1 January 2025, or be prohibited from being sold, offered, distributed, or imported into California. That 25% rate has not been met, so EPS food service ware is currently prohibited. Rising EPS recycling-rate requirements follow: 30% (2028), 50% (2030), 65% (2032).",
+      "citation": "PRC §42057(i); §42057(i)(A)–(B)",
+      "status": "approved",
+      "tags": [
+        "EPS",
+        "polystyrene",
+        "prohibition",
+        "targets"
+      ]
+    },
+    {
+      "id": "ans-021",
+      "area": "Targets & Timeline",
+      "question": "What's the full compliance timeline at a glance?",
+      "alts": [
+        "Key SB 54 dates",
+        "Timeline of deadlines",
+        "When are the big milestones?"
+      ],
+      "answer": "Key dates: permanent regulations effective 1 May 2026; registration deadline 1 June 2026; 2023 baseline report due 1 July 2026; CAA final program plan to CalRecycle October 2026; full program implementation and fees begin 1 January 2027; recycling-rate and source-reduction milestones at 2028, 2030, and 2032; the $500M surcharge runs 2027–2037 and then sunsets. The Compliance Calendar tab lays out all of these with their legal basis.",
+      "citation": "PRC §42050; §42051; §42057; §42064; operational calendar",
+      "status": "approved",
+      "tags": [
+        "timeline",
+        "milestones",
+        "calendar"
+      ]
+    },
+    {
+      "id": "ans-022",
+      "area": "Fees & Surcharge",
+      "question": "What fees will I have to pay?",
+      "alts": [
+        "SB 54 fees explained",
+        "How much does compliance cost?",
+        "What is the PRO fee?"
+      ],
+      "answer": "As a PRO participant you pay a program fee set by CAA to fully fund the plan. Fees are eco-modulated — lower for easy-to-recycle or PCR-rich materials, with higher 'malus' fees for hard-to-recycle, toxic, or non-optimized materials. Fees may not be itemized to consumers on a receipt. 'Early fees' were invoiced mid-2026 based on 2025 supply data; full program fees begin with implementation on 1 January 2027. Exact amounts depend on your material mix and CAA's schedule.",
+      "citation": "PRC §42053; operational (CAA fee schedule)",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "PRO",
+        "fee",
+        "eco-modulation"
+      ]
+    },
+    {
+      "id": "ans-023",
+      "area": "Fees & Surcharge",
+      "question": "What is the $500 million surcharge?",
+      "alts": [
+        "Environmental mitigation surcharge",
+        "The $500M plastic fee",
+        "What is the surcharge for?"
+      ],
+      "answer": "SB 54 requires the PRO to remit $500,000,000 per year from 2027 through 2037 to the California Plastic Pollution Mitigation Fund, via CDTFA. It is allocated among producers by plastic market share (weight and component count) and paid by 1 July annually. The PRO may collect up to $150M of it from plastic-resin manufacturers. These provisions sunset on 1 January 2037.",
+      "citation": "PRC §42064; §42064(n) (sunset)",
+      "status": "approved",
+      "tags": [
+        "surcharge",
+        "$500M",
+        "mitigation",
+        "fund"
+      ]
+    },
+    {
+      "id": "ans-024",
+      "area": "Fees & Surcharge",
+      "question": "Can I pass the SB 54 fee through to my customers on the receipt?",
+      "alts": [
+        "Itemize fee to consumers",
+        "Show the fee at point of sale",
+        "Fee surcharge on receipts"
+      ],
+      "answer": "No. The program fee may not be itemized to consumers on a receipt. Note that a related First Amendment challenge in the federal lawsuit targets restrictions on how producers may communicate compliance costs — but the prohibition stands as of this tool's date.",
+      "citation": "PRC §42053; cf. federal litigation (First Amendment claim)",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "receipt",
+        "point",
+        "of",
+        "sale",
+        "First",
+        "Amendment"
+      ]
+    },
+    {
+      "id": "ans-025",
+      "area": "Fees & Surcharge",
+      "question": "What is the CA Circular Economy Administrative Fee (CCEA)?",
+      "alts": [
+        "CCEA fee",
+        "State administrative fee",
+        "What does the state charge?"
+      ],
+      "answer": "The CCEA is a fee the PRO pays to CalRecycle, quarterly from the end of fiscal year 2026–27, to cover the state's actual cost of implementing and enforcing the program. It is deposited into the California Circular Economy Fund. It is separate from the program fee and the $500M surcharge.",
+      "citation": "PRC §42053.5",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "CCEA",
+        "administrative"
+      ]
+    },
+    {
+      "id": "ans-026",
+      "area": "Fees & Surcharge",
+      "question": "Is there a limit on how much the PRO can hold in reserves?",
+      "alts": [
+        "PRO reserve cap",
+        "How much can CAA keep in reserve?"
+      ],
+      "answer": "Yes. The PRO may not maintain total program reserves exceeding 60% of its annual operating expenses (up to 75% with CalRecycle approval), consistent with the applicable not-for-profit accounting standard.",
+      "citation": "PRC §42051.1(j)(3)",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "reserves",
+        "PRO"
+      ]
+    },
+    {
+      "id": "ans-027",
+      "area": "Enforcement & Compliance",
+      "question": "What are the penalties for non-compliance?",
+      "alts": [
+        "SB 54 fines",
+        "How much can I be penalized?",
+        "Penalty amounts"
+      ],
+      "answer": "Penalties can reach up to $50,000 per day, per violation ($25,000 per day for small producers). A violation is assessed by brand, product line, form, category, or size. Importantly, penalties do not begin to accrue until 30 days after a notice of violation, giving an opportunity to cure.",
+      "citation": "PRC §42081",
+      "status": "approved",
+      "tags": [
+        "penalties",
+        "enforcement",
+        "fines"
+      ]
+    },
+    {
+      "id": "ans-028",
+      "area": "Enforcement & Compliance",
+      "question": "What is a corrective action plan?",
+      "alts": [
+        "CAP",
+        "How do I fix a violation?",
+        "Correcting non-compliance"
+      ],
+      "answer": "A corrective action plan gives you a path to fix a violation without penalty. It can run up to 24 months, with a possible 12-month extension on a showing of substantial effort. If you follow the plan, no penalty is assessed and you are not listed as non-compliant for that covered material.",
+      "citation": "PRC §42081(b)",
+      "status": "approved",
+      "tags": [
+        "corrective",
+        "action",
+        "enforcement",
+        "compliance"
+      ]
+    },
+    {
+      "id": "ans-029",
+      "area": "Enforcement & Compliance",
+      "question": "Will non-compliance be made public?",
+      "alts": [
+        "Public non-compliance list",
+        "Does CalRecycle publish violators?",
+        "Is my non-compliance disclosed?"
+      ],
+      "answer": "Yes. CalRecycle posts a list of non-compliant producers and covered material categories at least every six months.",
+      "citation": "PRC §42082",
+      "status": "approved",
+      "tags": [
+        "enforcement",
+        "public",
+        "list",
+        "disclosure"
+      ]
+    },
+    {
+      "id": "ans-030",
+      "area": "Enforcement & Compliance",
+      "question": "If I miss a recycling rate, can I keep selling?",
+      "alts": [
+        "Market-share offset",
+        "Selling after missing a target",
+        "What if I don't hit the rate?"
+      ],
+      "answer": "Possibly, through the market-share offset. A producer may keep selling a category that misses the recycling rate if it demonstrates it achieved the rate for an amount equal to its market share of that category.",
+      "citation": "PRC §42083",
+      "status": "approved",
+      "tags": [
+        "market-share",
+        "offset",
+        "enforcement",
+        "targets"
+      ]
+    },
+    {
+      "id": "ans-031",
+      "area": "Enforcement & Compliance",
+      "question": "Can I use program money to pay a penalty or fight the state in court?",
+      "alts": [
+        "Restrictions on use of plan revenue",
+        "Can plan funds pay fines or litigation?"
+      ],
+      "answer": "No. A producer or PRO may not spend revenue collected to implement the plan on an administrative civil penalty, or on litigation between the producer/organization and the state, among other restricted purposes.",
+      "citation": "PRC §42051.1(j)(2)(A)–(B)",
+      "status": "approved",
+      "tags": [
+        "enforcement",
+        "plan",
+        "revenue",
+        "restrictions"
+      ]
+    },
+    {
+      "id": "ans-032",
+      "area": "Reporting & Data",
+      "question": "What do I have to report, and when?",
+      "alts": [
+        "Reporting obligations",
+        "What data is due?",
+        "Annual reporting requirements"
+      ],
+      "answer": "Producers report supply/covered-material data used to set fees and track compliance. PRO participants report through CAA; independents report to CalRecycle. Key operational dates: 2023 baseline data supported registration (due 1 June 2026 pathway step), 2025 supply data reports were due 31 May 2026, the 2023 baseline producer report is due 1 July 2026, and annual reporting continues thereafter. Individual compliers annually report sales, recycling, composting, and source-reduction data.",
+      "citation": "PRC §42051(b)(2)(B)(iii); §42052; §42057; operational calendar",
+      "status": "approved",
+      "tags": [
+        "reporting",
+        "data",
+        "deadlines"
+      ]
+    },
+    {
+      "id": "ans-033",
+      "area": "Reporting & Data",
+      "question": "Is my reported sales and production data public?",
+      "alts": [
+        "Confidentiality of my data",
+        "Will competitors see my numbers?",
+        "Is production data disclosed?"
+      ],
+      "answer": "No, not in identifiable form. The approved plan is a public record, but financial, production, or sales data reported to CalRecycle by the PRO is not a public record and is not open to public inspection. CalRecycle releases such data only in summary form, so it cannot be attributed to a specific producer, retailer, wholesaler, or other entity.",
+      "citation": "PRC §42051.2(b)(5)",
+      "status": "approved",
+      "tags": [
+        "reporting",
+        "confidentiality",
+        "data"
+      ]
+    },
+    {
+      "id": "ans-034",
+      "area": "Reporting & Data",
+      "question": "How long do I need to keep records?",
+      "alts": [
+        "Recordkeeping period",
+        "How long to retain compliance records?"
+      ],
+      "answer": "The PRO must maintain records sufficient to demonstrate each participating producer's compliance for at least the previous three years, and must keep those records reasonably accessible to CalRecycle on request. Keep your own supporting records aligned to that window.",
+      "citation": "PRC §42051.1(m)(4)",
+      "status": "approved",
+      "tags": [
+        "reporting",
+        "recordkeeping",
+        "retention"
+      ]
+    },
+    {
+      "id": "ans-035",
+      "area": "2026 Operational Steps",
+      "question": "What did I need to do by 1 June 2026?",
+      "alts": [
+        "June 1 2026 deadline",
+        "Registration deadline what was required"
+      ],
+      "answer": "By 1 June 2026 you had to register via one pathway: (a) join CAA and submit your 2023 baseline supply data; (b) register with CalRecycle through PEPRS as an Independent Producer; or (c) register with CalRecycle and apply for the Small Producer Exemption. This deadline ran 30 days from the 1 May 2026 effective date of the permanent regulations.",
+      "citation": "PRC §42051(b); operational (regs effective 1 May 2026)",
+      "status": "approved",
+      "tags": [
+        "2026",
+        "registration",
+        "deadline"
+      ]
+    },
+    {
+      "id": "ans-036",
+      "area": "2026 Operational Steps",
+      "question": "What is due on 1 July 2026?",
+      "alts": [
+        "July 1 2026 deadline",
+        "Baseline report due date"
+      ],
+      "answer": "The 2023 baseline producer report is due 1 July 2026. PRO participants have CAA compile and submit to CalRecycle; independent producers report directly to CalRecycle.",
+      "citation": "PRC §42057; operational calendar",
+      "status": "approved",
+      "tags": [
+        "2026",
+        "reporting",
+        "baseline"
+      ]
+    },
+    {
+      "id": "ans-037",
+      "area": "2026 Operational Steps",
+      "question": "When does the program actually start and fees begin?",
+      "alts": [
+        "Program start date",
+        "When do fees kick in?",
+        "Full implementation date"
+      ],
+      "answer": "Full program implementation is 1 January 2027, when program fees begin and the sales restriction takes effect: to sell covered materials you must be in an approved PRO plan (or compliant individually). The CAA final program plan is due to CalRecycle in October 2026 ahead of that.",
+      "citation": "PRC §42051(b); operational calendar",
+      "status": "approved",
+      "tags": [
+        "2027",
+        "implementation",
+        "fees"
+      ]
+    },
+    {
+      "id": "ans-038",
+      "area": "2026 Operational Steps",
+      "question": "How do I comment on the CAA program plan?",
+      "alts": [
+        "Program plan public comment",
+        "Can I give feedback on the plan?",
+        "Comment period deadline"
+      ],
+      "answer": "CAA submitted its draft California Program Plan (about 350 pages) to the advisory board on 15 June 2026, opening a public comment period that runs through 14 August 2026. Comments are submitted one at a time by chapter and page number through CAA's comment form; CAA held an informational webinar on 8 July 2026. Feedback is summarized as CAA prepares the final plan for CalRecycle in October 2026.",
+      "citation": "Operational: CAA program-plan comment period (verified 2026-07-03)",
+      "status": "approved",
+      "tags": [
+        "2026",
+        "program",
+        "plan",
+        "comment",
+        "period",
+        "CAA"
+      ]
+    },
+    {
+      "id": "ans-039",
+      "area": "Litigation Status",
+      "question": "Is SB 54 still in effect given the lawsuits?",
+      "alts": [
+        "Are obligations suspended?",
+        "Do I still have to comply during litigation?",
+        "Has SB 54 been blocked?"
+      ],
+      "answer": "Yes, SB 54 is in effect. As of this tool's verification date, no court has issued a temporary restraining order, preliminary injunction, or stay against SB 54 in California, and the pending lawsuits do not by themselves suspend compliance. You must continue to register, report, and prepare for fees. This is a fast-moving situation — confirm current status before relying, especially around the Oregon merits trial and any ruling on the federal motion.",
+      "citation": "Verified 2026-07-03 (Holland & Knight; Mondaq): no injunction/stay to date",
+      "status": "approved",
+      "tags": [
+        "litigation",
+        "status",
+        "compliance"
+      ]
+    },
+    {
+      "id": "ans-040",
+      "area": "Litigation Status",
+      "question": "Who is suing over SB 54, and on what grounds?",
+      "alts": [
+        "The lawsuits explained",
+        "What are the legal challenges?",
+        "Who filed against SB 54?"
+      ],
+      "answer": "Two challenges pull in opposite directions. A 17-state coalition plus the National Association of Wholesaler-Distributors filed a federal suit (State of Nebraska et al. v. Heller et al., E.D. Cal., 22 June 2026) seeking to block enforcement on Commerce Clause, Import-Export Clause, First Amendment, due-process, and unlawful-delegation grounds, naming CalRecycle Director Zoe Heller and CAA as defendants. Separately, environmental groups (NRDC, Californians Against Waste Foundation, Oceana) filed in SF Superior Court on 2 June 2026 arguing the regulations are weaker than SB 54 requires. Neither has produced an injunction as of this tool's date.",
+      "citation": "Verified 2026-07-03; No. 2:26-at-01047 (E.D. Cal.)",
+      "status": "approved",
+      "tags": [
+        "litigation",
+        "lawsuits",
+        "status"
+      ]
+    },
+    {
+      "id": "ans-041",
+      "area": "Litigation Status",
+      "question": "Why does the Oregon case matter for California?",
+      "alts": [
+        "Oregon EPR injunction",
+        "NAW Oregon trial relevance",
+        "Oregon precedent"
+      ],
+      "answer": "Oregon's structurally similar EPR law was the first state EPR law blocked, when NAW members won a preliminary injunction in February 2026. The merits trial (NAW v. Feldon) is set for 13–17 July 2026 in Portland, and a second Oregon class action for non-NAW producers was filed 25 June 2026. Because the constitutional questions overlap (Commerce Clause, due process, PRO power), a producer-favorable Oregon ruling would likely be cited in the California federal case.",
+      "citation": "Verified 2026-07-03; Oregon merits trial 13–17 July 2026",
+      "status": "approved",
+      "tags": [
+        "litigation",
+        "Oregon",
+        "precedent"
+      ]
+    },
+    {
+      "id": "ans-042",
+      "area": "About This Tool",
+      "question": "Is this tool legal advice?",
+      "alts": [
+        "Can I rely on this for compliance?",
+        "Disclaimer",
+        "Is this official?"
+      ],
+      "answer": "No. This is compliance-support material, not legal advice. It is a planning and navigation aid. SB 54 obligations turn on CalRecycle's implementing regulations and CAA program rules, both of which continue to evolve and are under active litigation. Verify against current primary sources and engage qualified counsel before relying on any position here.",
+      "citation": "See Validation & Trust tab",
+      "status": "approved",
+      "tags": [
+        "about",
+        "disclaimer",
+        "legal"
+      ]
+    },
+    {
+      "id": "ans-043",
+      "area": "About This Tool",
+      "question": "How current is the information in this tool?",
+      "alts": [
+        "When was this updated?",
+        "Is this up to date?",
+        "Content date"
+      ],
+      "answer": "The operational and litigation layers were re-verified as of the date shown in the status bar. The statutory requirement layer is drawn verbatim from SB 54 and is stable; the calendar and litigation items are the most perishable and should be re-checked before relying, particularly anything dated near today.",
+      "citation": "See status bar and Validation & Trust tab",
+      "status": "approved",
+      "tags": [
+        "about",
+        "currency",
+        "date"
+      ]
+    },
+    {
+      "id": "ans-044",
+      "area": "About This Tool",
+      "question": "How does this tool work — is it an AI chatbot?",
+      "alts": [
+        "Is this a chatbot?",
+        "Does this use AI?",
+        "What is GAR?"
+      ],
+      "answer": "No, it is not a live chatbot. It runs on Governed Answer Retrieval (GAR): answers are drafted and expert-reviewed in a private process, then served read-only. At the moment you search, the system retrieves an approved answer — it never generates one on the fly. That removes the risk of a confident but wrong AI answer in a compliance setting. The requirement layer is served verbatim from the statute.",
+      "citation": "GAR methodology; Validation & Trust tab",
+      "status": "approved",
+      "tags": [
+        "about",
+        "GAR",
+        "AI",
+        "methodology"
+      ]
+    },
+    {
+      "id": "ans-045",
+      "area": "Scope & Definitions",
+      "question": "What is a 'responsible end market'?",
+      "alts": [
+        "Responsible end market definition",
+        "What counts as recycling under SB 54?"
+      ],
+      "answer": "To be considered recycled under SB 54, covered material must be sent to a responsible end market. It is the destination where collected material is actually turned into new packaging or products to specification, rather than merely diverted. The department's regulations further define and constrain what qualifies, and encourage recycling that minimizes hazardous waste, greenhouse gases, and environmental-justice impacts.",
+      "citation": "PRC §42041(aa)(3); §42041(aa)(5)",
+      "status": "approved",
+      "tags": [
+        "responsible",
+        "end",
+        "market",
+        "recycling",
+        "definition"
+      ]
+    },
+    {
+      "id": "ans-046",
+      "area": "Scope & Definitions",
+      "question": "Does exported plastic waste count toward my recycling?",
+      "alts": [
+        "Exporting plastic waste",
+        "Can I export to meet recycling rates?",
+        "Plastic export certification"
+      ],
+      "answer": "Only under strict certification. For any mixture of plastic waste exported to another country, the PRO or producer must certify to CalRecycle — under penalty of perjury and with supporting documentation — that the waste is limited to specified plastic types destined for separate recycling, and that the export is not prohibited by the destination's laws or treaties. Exports to other states or countries must certify the recycling technology meets the statute's requirements.",
+      "citation": "PRC §42041(aa)(4)(B)–(D)",
+      "status": "approved",
+      "tags": [
+        "export",
+        "plastic",
+        "waste",
+        "recycling",
+        "certification"
+      ]
+    },
+    {
+      "id": "ans-047",
+      "area": "Scope & Definitions",
+      "question": "How is the recycling rate actually calculated?",
+      "alts": [
+        "Recycling rate formula",
+        "How is my rate measured?"
+      ],
+      "answer": "The recycling rate is calculated as the amount of covered material recycled in a given year divided by the total amount of covered material disposed plus the amount recycled — unless and until CalRecycle adopts a new methodology by regulation.",
+      "citation": "PRC §42041(ab)",
+      "status": "approved",
+      "tags": [
+        "recycling",
+        "rate",
+        "calculation",
+        "methodology"
+      ]
+    },
+    {
+      "id": "ans-048",
+      "area": "Registration Pathways",
+      "question": "What must be in a producer responsibility plan?",
+      "alts": [
+        "Plan contents",
+        "What does the PRO plan include?",
+        "Plan requirements"
+      ],
+      "answer": "The plan must set out the actions and investments to meet the chapter's requirements and address the needs assessment; the source reduction plan; the technologies used to meet recycling requirements; how the PRO will fund and achieve collection, processing, and responsible end markets; the fee and its calculation; measures ensuring participating producers comply; education and outreach; a closure/transfer plan with reserve funds; and a full budget. It must use objective, measurable criteria wherever possible.",
+      "citation": "PRC §42051.1(b)–(m)",
+      "status": "approved",
+      "tags": [
+        "plan",
+        "PRO",
+        "requirements"
+      ]
+    },
+    {
+      "id": "ans-049",
+      "area": "Registration Pathways",
+      "question": "What is the timeline for plan approval?",
+      "alts": [
+        "Plan review timeline",
+        "How long does CalRecycle take to approve?"
+      ],
+      "answer": "Before submitting to CalRecycle, the PRO submits a proposed plan to the advisory board for comment, then submits to the department within 120 days of receiving those comments. CalRecycle has 90 days to respond with approval, disapproval, conditional approval, a request for more information, or a decision timeline. On conditional approval, the PRO has 12 months to meet conditions and resubmit. Within 90 days of approval, the PRO implements and posts the plan.",
+      "citation": "PRC §42051.2(a)–(c)",
+      "status": "approved",
+      "tags": [
+        "plan",
+        "approval",
+        "timeline"
+      ]
+    },
+    {
+      "id": "ans-050",
+      "area": "Registration Pathways",
+      "question": "How often must the plan be updated?",
+      "alts": [
+        "Plan renewal",
+        "Five-year plan cycle",
+        "When does the plan expire?"
+      ],
+      "answer": "Plans run on a five-year cycle. No less than 180 days before a plan's five-year expiration, the PRO must submit a proposed updated plan for advisory-board review and CalRecycle approval for the next five years. Certain amendments (to targets actions, fees, or cost allocation) also require advisory-board comment and department approval.",
+      "citation": "PRC §42051.2(d)(2); §42051.2(e)",
+      "status": "approved",
+      "tags": [
+        "plan",
+        "update",
+        "five-year"
+      ]
+    },
+    {
+      "id": "ans-051",
+      "area": "Exclusions & Exemptions",
+      "question": "Is the direct-conflict exclusion automatic?",
+      "alts": [
+        "Federal conflict exclusion",
+        "Do I self-execute an exclusion?"
+      ],
+      "answer": "No — several exclusions and the direct-conflict basis are not self-executing. They require notice and justification to CalRecycle before you can rely on them. Do not assume a category is out of scope without confirming the procedural step and, where needed, obtaining the department's acknowledgment.",
+      "citation": "Final regulations; cf. PRC §42041(e)",
+      "status": "approved",
+      "tags": [
+        "exclusion",
+        "procedure",
+        "direct",
+        "conflict"
+      ]
+    },
+    {
+      "id": "ans-052",
+      "area": "Exclusions & Exemptions",
+      "question": "Beverage containers — are they covered?",
+      "alts": [
+        "Bottle Bill packaging",
+        "Are drink bottles under SB 54?"
+      ],
+      "answer": "Beverage containers already covered by the California Beverage Container Recycling program (the Bottle Bill) are excluded from SB 54 covered material. Associated non-beverage-container packaging you sell may still be covered — assess each component.",
+      "citation": "PRC §42041(e) (beverage container exclusion)",
+      "status": "approved",
+      "tags": [
+        "exclusion",
+        "beverage",
+        "Bottle",
+        "Bill"
+      ]
+    },
+    {
+      "id": "ans-053",
+      "area": "Targets & Timeline",
+      "question": "What is the interim source-reduction step in 2027?",
+      "alts": [
+        "2027 source reduction",
+        "10% reduction 2027",
+        "First source reduction milestone"
+      ],
+      "answer": "The statute sets an interim source-reduction step effective 1 January 2027: at least 10% of plastic covered material reduced, including at least 2% via reuse or refill. Note that CAA's draft program plan has signaled this interim step could be postponed given the regulatory delays — watch the final plan (October 2026) for confirmation.",
+      "citation": "PRC §42057(a)(2)(C); CAA draft plan (possible postponement)",
+      "status": "approved",
+      "tags": [
+        "targets",
+        "source",
+        "reduction",
+        "2027",
+        "interim"
+      ]
+    },
+    {
+      "id": "ans-054",
+      "area": "Targets & Timeline",
+      "question": "Can the $500M surcharge increase over time?",
+      "alts": [
+        "Surcharge increase",
+        "Will the mitigation surcharge go up?"
+      ],
+      "answer": "The base surcharge is $500M per year (2027–2037). The statute directs CalRecycle to evaluate a possible surcharge increase (for example, around 2030). The mechanics and any increase are set by the department under the surcharge provisions.",
+      "citation": "PRC §42064; §42064(i)",
+      "status": "approved",
+      "tags": [
+        "surcharge",
+        "increase",
+        "targets"
+      ]
+    },
+    {
+      "id": "ans-055",
+      "area": "Fees & Surcharge",
+      "question": "What is eco-modulation of fees?",
+      "alts": [
+        "Bonus malus fees",
+        "Why do my fees vary by material?",
+        "Fee modulation"
+      ],
+      "answer": "Eco-modulation adjusts your fee based on the environmental performance of your material. Easy-to-recycle materials and those with high post-consumer recycled content pay lower fees (a 'bonus'); hard-to-recycle, toxic, or non-optimized materials pay higher fees (a 'malus'). The design is meant to reward better packaging choices financially.",
+      "citation": "PRC §42053; CAA fee methodology",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "eco-modulation",
+        "bonus",
+        "malus"
+      ]
+    },
+    {
+      "id": "ans-056",
+      "area": "Fees & Surcharge",
+      "question": "When were 'early fees' invoiced?",
+      "alts": [
+        "Early fee timing",
+        "First invoices from CAA"
+      ],
+      "answer": "CAA indicated 'early fees' would be invoiced around mid-2026, based on the 2025 supply report (calendar-year 2025 data) rather than the 2023 baseline report. Exact timing is CAA-administered and was described as approximate; confirm in the CAA producer portal.",
+      "citation": "Operational (CAA); verify in producer portal",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "early",
+        "fees",
+        "timing",
+        "2026"
+      ]
+    },
+    {
+      "id": "ans-057",
+      "area": "Enforcement & Compliance",
+      "question": "Can I challenge a fee assessment in court?",
+      "alts": [
+        "Disputing CAA fees",
+        "Fee arbitration",
+        "How do I contest fees?"
+      ],
+      "answer": "This is contested. NAW's federal complaint argues that producers cannot challenge fee assessments in court and that their only recourse is binding arbitration run by CAA itself. CAA responds that producers have multiple avenues — direct engagement, structured dispute resolution such as mediation or JAMS, and the ability to seek injunctive judicial relief in certain circumstances. The dispute is part of the active litigation; check current CAA plan terms and counsel before relying on either characterization.",
+      "citation": "Contested: NAW complaint vs. CAA draft plan (2026)",
+      "status": "approved",
+      "tags": [
+        "fees",
+        "dispute",
+        "arbitration",
+        "litigation"
+      ]
+    },
+    {
+      "id": "ans-058",
+      "area": "Enforcement & Compliance",
+      "question": "What triggers a PRO notice to CalRecycle about my company?",
+      "alts": [
+        "When does CAA report me?",
+        "PRO notification of non-compliance"
+      ],
+      "answer": "The PRO must notify CalRecycle within 30 calendar days of: the end of any three-month period in which it unsuccessfully tried to obtain a fee, records, or information from you (or received incomplete/incorrect data); the date you stop participating in the plan; or any instance of your non-compliance.",
+      "citation": "PRC §42051(d)(1)–(3)",
+      "status": "approved",
+      "tags": [
+        "enforcement",
+        "PRO",
+        "notification",
+        "non-compliance"
+      ]
+    },
+    {
+      "id": "ans-059",
+      "area": "Reporting & Data",
+      "question": "What was the 2025 supply data deadline?",
+      "alts": [
+        "May 31 2026 report",
+        "CY2025 data due date"
+      ],
+      "answer": "The 2026 California Producer Report (covering calendar-year 2025 data) and the 2026 California Annual Source Reduction Report (also CY2025 data) were due to CAA on 31 May 2026 for participating producers.",
+      "citation": "Operational calendar (CAA); verified",
+      "status": "approved",
+      "tags": [
+        "reporting",
+        "2025",
+        "data",
+        "deadline"
+      ]
+    },
+    {
+      "id": "ans-060",
+      "area": "Reporting & Data",
+      "question": "Do individual compliers report differently than PRO participants?",
+      "alts": [
+        "Independent producer reporting",
+        "Self-complier data obligations"
+      ],
+      "answer": "Yes. A producer complying individually must annually report sales, recycling, composting, and source-reduction data directly to CalRecycle, in the manner the department determines, rather than through CAA. The substance mirrors what the PRO reports for its participants.",
+      "citation": "PRC §42051(b)(2)(B)(iii); §42052; §42057",
+      "status": "approved",
+      "tags": [
+        "reporting",
+        "individual",
+        "compliance",
+        "data"
+      ]
+    },
+    {
+      "id": "ans-061",
+      "area": "2026 Operational Steps",
+      "question": "What happened on 1 May 2026?",
+      "alts": [
+        "May 1 2026 regulations",
+        "When did regulations take effect?"
+      ],
+      "answer": "On 1 May 2026 the permanent SB 54 regulations were approved by the Office of Administrative Law and took effect (Title 14 CCR, Division 7, Chapter 11.1). CalRecycle launched the PEPRS portal, published a Producer Guidance site, and released estimated fee-rate ranges. This effective date started the 30-day clock to the 1 June 2026 registration deadline.",
+      "citation": "Operational: OAL approval 1 May 2026; Title 14 Ch. 11.1",
+      "status": "approved",
+      "tags": [
+        "2026",
+        "regulations",
+        "effective",
+        "date"
+      ]
+    },
+    {
+      "id": "ans-062",
+      "area": "2026 Operational Steps",
+      "question": "What is the 'Are you a Producer?' screening tool?",
+      "alts": [
+        "CalRecycle producer screening",
+        "Official producer check"
+      ],
+      "answer": "CalRecycle publishes official Producer Guidance, including an 'Are you a Producer?' screening tool and materials guides, to help companies determine whether they are covered and what category their materials fall in. It is the authoritative first stop for a scope determination; this navigator complements it but does not replace it.",
+      "citation": "Operational: CalRecycle Producer Guidance",
+      "status": "approved",
+      "tags": [
+        "2026",
+        "screening",
+        "producer",
+        "CalRecycle"
+      ]
+    },
+    {
+      "id": "ans-063",
+      "area": "Litigation Status",
+      "question": "What is the SB 343 challenge and why does it affect me?",
+      "alts": [
+        "SB 343 labeling lawsuit",
+        "Chasing arrows law challenge",
+        "Truth in labeling case"
+      ],
+      "answer": "SB 343 is California's 'truth in labeling' law governing recyclability claims (the chasing-arrows symbol), with enforcement set for 4 October 2026. Trade groups including the Flexible Packaging Association challenged it in March 2026 on First Amendment grounds; a preliminary-injunction hearing was held in early June 2026 but the court has not yet issued a written decision. It matters here because SB 343 recyclability determinations feed into what counts as 'recyclable' under SB 54.",
+      "citation": "Verified 2026-07-03; SB 343 enforcement 4 Oct 2026",
+      "status": "approved",
+      "tags": [
+        "litigation",
+        "SB",
+        "343",
+        "labeling",
+        "recyclable"
+      ]
+    },
+    {
+      "id": "ans-064",
+      "area": "Litigation Status",
+      "question": "Should I pause my compliance work until the lawsuits resolve?",
+      "alts": [
+        "Wait and see on compliance",
+        "Delay registration during litigation?"
+      ],
+      "answer": "Waiting carries real risk. Obligations remain in effect and no injunction has issued in California, so deadlines continue to run and penalties can accrue (after notice) for missing them. The prudent course most advisories describe is to keep complying while monitoring the litigation closely, rather than betting on an injunction that has not been granted. This is general information, not legal advice — decide with counsel.",
+      "citation": "Verified 2026-07-03; obligations in effect",
+      "status": "approved",
+      "tags": [
+        "litigation",
+        "strategy",
+        "compliance"
+      ]
+    },
+    {
+      "id": "ans-065",
+      "area": "About This Tool",
+      "question": "Where do the answers in this tool come from?",
+      "alts": [
+        "Sourcing",
+        "How were these answers built?",
+        "What is this based on?"
+      ],
+      "answer": "Each answer is grounded in the SB 54 statute (cited by section), the finalized regulations and CalRecycle/CAA guidance, and a dated re-verification of the operational and litigation layers. Statutory points cite the exact §; operational points cite the source and its date. Where a matter is contested or moving, the answer says so rather than asserting a single settled position.",
+      "citation": "See Sources and Validation & Trust tabs",
+      "status": "approved",
+      "tags": [
+        "about",
+        "sourcing",
+        "methodology"
+      ]
+    },
+    {
+      "id": "ans-066",
+      "area": "About This Tool",
+      "question": "What should I still verify myself before acting?",
+      "alts": [
+        "What to double-check",
+        "Human verification needed",
+        "What can be wrong?"
+      ],
+      "answer": "Verify three things in particular: that the statutory section still reads as quoted (against the current chaptered law), the current status of any date near today (CAA-administered dates and litigation can move), and any scope call for your specific products and supply chain. Company-facing flags and section citations here are a first pass and benefit from a counsel review.",
+      "citation": "See Validation & Trust tab",
+      "status": "approved",
+      "tags": [
+        "about",
+        "verification",
+        "limitations"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SB 54 Compliance Navigator — California Plastic EPR</title>
+<meta name="description" content="A governed, citable navigator for California SB 54 (Plastic Pollution Prevention and Packaging Producer Responsibility Act): every operative obligation, filterable by who it binds, plus the operational compliance calendar and producer pathways. Built on Governed Answer Retrieval.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<!-- status strip -->
+<div class="statusbar">
+  <div class="wrap">
+    <span class="live">Statute under active legal challenge</span>
+    <span>Content verified as of <b id="stat-date">2026-07-03</b> — re-check dated items before relying</span>
+  </div>
+</div>
+
+<!-- masthead -->
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">
+      <span>California SB 54</span><span class="dot">●</span>
+      <span>Plastic Pollution Prevention &amp; Packaging Producer Responsibility Act</span><span class="dot">●</span>
+      <span>PRC §42040 et seq.</span>
+    </div>
+    <h1>The obligations, isolated to <em>the ones that bind you.</em></h1>
+    <p class="sub">
+      SB 54 runs to <b id="stat-total">486</b> operative “shall” obligations across five articles.
+      <b id="stat-cf">182</b> of them fall on producers and PROs. This navigator lets you filter the
+      whole statute down to your duties in seconds — every line traceable to the bill, every answer
+      vetted before you arrive. No live chatbot, no generated text.
+    </p>
+  </div>
+</header>
+
+<!-- nav -->
+<nav class="tabs">
+  <div class="wrap">
+    <button class="tab" data-tab="explorer" aria-selected="true">Requirements Explorer<span class="n" data-n-total>486</span></button>
+    <button class="tab" data-tab="answers" aria-selected="false">Approved Answers</button>
+    <button class="tab" data-tab="calendar" aria-selected="false">Compliance Calendar</button>
+    <button class="tab" data-tab="pathways" aria-selected="false">Producer Pathways</button>
+    <button class="tab" data-tab="sources" aria-selected="false">Sources</button>
+    <button class="tab" data-tab="trust" aria-selected="false">Validation &amp; Trust</button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <!-- EXPLORER -->
+  <section id="panel-explorer" class="panel" data-active="true">
+    <div class="explorer">
+      <aside class="controls">
+        <div class="grp">
+          <label for="f-search">Search obligations</label>
+          <input id="f-search" class="search-in" type="search" placeholder="e.g. scope, fee, recycling rate, report…" autocomplete="off">
+        </div>
+        <div class="grp">
+          <label>Who it binds</label>
+          <div id="f-cf" class="chips"></div>
+        </div>
+        <div class="grp">
+          <label>Responsible party</label>
+          <div id="f-party" class="chips"></div>
+        </div>
+        <div class="grp">
+          <label>Article</label>
+          <div id="f-article" class="chips"></div>
+        </div>
+        <button id="f-reset" class="reset" type="button">↺ Reset all filters</button>
+      </aside>
+
+      <div class="results">
+        <div class="results-bar">
+          <div class="count-big" id="count">486 <span>of 486 obligations</span></div>
+        </div>
+        <div id="req-list" class="req-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROVED ANSWERS -->
+  <section id="panel-answers" class="panel">
+    <div class="panel-head">
+      <h2>Approved Answers</h2>
+      <p>Plain-language answers to the questions producers actually ask about SB 54 — each drafted, reviewed, and citing the section it rests on. Ask a question or browse by area. The system retrieves approved answers; it never generates.</p>
+    </div>
+    <div id="qa-draft-banner" class="qa-draft-banner hide">
+      <b>Review mode.</b> These answers are drafts in the review queue, shown here for vetting. In the governed model, an answer publishes only after human approval.
+    </div>
+    <div class="qa-controls">
+      <input id="qa-search" class="search-in" type="search" placeholder="Ask a question — e.g. am I a producer? what are the fees? is SB 54 still in effect?" autocomplete="off">
+      <div id="qa-areas" class="chips"></div>
+    </div>
+    <div id="qa-count" class="qa-count"></div>
+    <div id="qa-list" class="qa-list"></div>
+  </section>
+
+  <!-- CALENDAR -->
+  <section id="panel-calendar" class="panel">
+    <div class="panel-head">
+      <h2>Operational Compliance Calendar</h2>
+      <p>What actually binds a producer now — statutory milestones plus the regulatory and CAA-administered dates created by the May 2026 permanent regulations. Fast-moving; re-check anything dated near today.</p>
+    </div>
+    <div class="legend">
+      <span><i class="t-STAT"></i> STAT — SB 54 statute</span>
+      <span><i class="t-REG"></i> REG — CalRecycle regulation</span>
+      <span><i class="t-CAA"></i> CAA — PRO-administered</span>
+      <span><i class="t-REL"></i> REL — related law / litigation</span>
+    </div>
+    <div id="cal" class="cal"></div>
+    <div id="watch" class="watch"></div>
+  </section>
+
+  <!-- PATHWAYS -->
+  <section id="panel-pathways" class="panel">
+    <div class="panel-head">
+      <h2>Producer Pathways &amp; Key Facts</h2>
+      <p>The choices and thresholds a covered producer needs at hand: the three registration pathways, the producer definition and hierarchy, the exclusion-versus-exemption distinction, performance targets, fees and the $500M surcharge, and enforcement.</p>
+    </div>
+    <div id="pathways"></div>
+  </section>
+
+  <!-- SOURCES -->
+  <section id="panel-sources" class="panel">
+    <div class="panel-head">
+      <h2>Sources &amp; References</h2>
+      <p>Primary and secondary sources supporting the operational layer, with links and retrieval dates. Click through to the primary source before quoting or relying.</p>
+    </div>
+    <div id="sources" class="src"></div>
+  </section>
+
+  <!-- TRUST -->
+  <section id="panel-trust" class="panel">
+    <div class="panel-head">
+      <h2>Validation &amp; Trust</h2>
+      <p>How far to lean on each part of this navigator — per-section reliability, how it was built, where it can be wrong, and what a human still has to do.</p>
+    </div>
+    <div id="trust-lead" class="trust-lead"></div>
+    <div id="trust"></div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="gar">Powered by Governed Answer Retrieval (GAR) — vetted content, retrieved read-only. HTML · CSS · JavaScript · JSON. No LLM at runtime.</div>
+    <p class="disc">
+      <b>Compliance-support material — not legal advice.</b> This navigator is a planning and tracking aid.
+      SB 54 obligations turn on CalRecycle’s implementing regulations (Title 14 CCR, Div. 7, Ch. 11.1;
+      permanent regulations effective 1 May 2026) and on Circular Action Alliance program rules, both of
+      which continue to evolve and are subject to active litigation. Engage qualified counsel before
+      relying on any position herein.
+    </p>
+  </div>
+</footer>
+
+<script src="./js/app.js"></script>
+</body>
+</html>

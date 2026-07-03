@@ -1,0 +1,138 @@
+{
+  "generated": "2026-07-03T04:48:03Z",
+  "standard": "California SB 54 — Plastic Pollution Prevention and Packaging Producer Responsibility Act (Chapter 75, Statutes of 2022; PRC §42040 et seq.)",
+  "content_dated": "2026-07-03",
+  "counts": {
+    "requirements": 486,
+    "company_facing": 182,
+    "with_operational_action": 209
+  },
+  "filters": {
+    "company_facing": [
+      {
+        "value": "Monitor only",
+        "count": 188
+      },
+      {
+        "value": "Yes — producer/PRO",
+        "count": 182
+      },
+      {
+        "value": "Review",
+        "count": 116
+      }
+    ],
+    "party": [
+      {
+        "value": "Regulator/State",
+        "count": 155
+      },
+      {
+        "value": "Review",
+        "count": 116
+      },
+      {
+        "value": "PRO",
+        "count": 83
+      },
+      {
+        "value": "Producer",
+        "count": 43
+      },
+      {
+        "value": "PRO / Regulator/State",
+        "count": 26
+      },
+      {
+        "value": "Advisory Board",
+        "count": 26
+      },
+      {
+        "value": "Producer / PRO",
+        "count": 18
+      },
+      {
+        "value": "Local Jurisdiction/Facility",
+        "count": 6
+      },
+      {
+        "value": "Producer / PRO / Regulator/State",
+        "count": 6
+      },
+      {
+        "value": "Producer / Regulator/State",
+        "count": 3
+      },
+      {
+        "value": "Producer / PRO / Regulator/State / Advisory Board",
+        "count": 1
+      },
+      {
+        "value": "PRO / Advisory Board",
+        "count": 1
+      },
+      {
+        "value": "Regulator/State / Advisory Board",
+        "count": 1
+      },
+      {
+        "value": "PRO / Regulator/State / Advisory Board",
+        "count": 1
+      }
+    ],
+    "req_type": [
+      {
+        "value": "Direct shall sentence",
+        "count": 305
+      },
+      {
+        "value": "Stem + list item",
+        "count": 180
+      },
+      {
+        "value": "Shall sentence (list intro, no items)",
+        "count": 1
+      }
+    ],
+    "article": [
+      {
+        "value": "Article 2. Producer Responsibility",
+        "count": 240
+      },
+      {
+        "value": "Article 3. Program Administration",
+        "count": 150
+      },
+      {
+        "value": "Article 4. Producer Responsibility Advisory Board",
+        "count": 36
+      },
+      {
+        "value": "Article 5. Enforcement",
+        "count": 28
+      },
+      {
+        "value": "—",
+        "count": 20
+      },
+      {
+        "value": "Article 1. General Provisions",
+        "count": 12
+      }
+    ],
+    "basis": [
+      {
+        "value": "Explicit",
+        "count": 303
+      },
+      {
+        "value": "Unresolved",
+        "count": 116
+      },
+      {
+        "value": "Inferred (passive)",
+        "count": 67
+      }
+    ]
+  }
+}

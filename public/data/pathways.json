@@ -1,0 +1,170 @@
+[
+  {
+    "heading": "1 · The three registration pathways  —  choose one by 1 Jun 2026 [§42051(b)]",
+    "rows": [
+      [
+        "Pathway",
+        "Who it's for",
+        "What you do",
+        "Where"
+      ],
+      [
+        "PRO participation",
+        "Most producers, esp. higher covered-material volumes",
+        "Register with CAA; submit CY2023 baseline supply data. CAA registers participants with CalRecycle, sets fees, and reports compliance.",
+        "CAA Producer Portal"
+      ],
+      [
+        "Individual compliance",
+        "Producers meeting strict criteria [§42051(b)(2)] who want to self-comply",
+        "Register with CalRecycle; apply as Independent Producer; assume all PRO-equivalent duties (plan, fund, report).",
+        "PEPRS (CalRecycle)"
+      ],
+      [
+        "Small Producer Exemption",
+        "<$1,000,000 gross CA sales (subject to CalRecycle override) [§42060(a)(5)]",
+        "Register with CalRecycle; apply for the exemption and substantiate eligibility. NOTE: still bound by §42050(b) recyclable/compostable requirement.",
+        "PEPRS (CalRecycle)"
+      ]
+    ]
+  },
+  {
+    "heading": "2 · Who is a 'producer'  [§42041(w)]",
+    "rows": [
+      [
+        "Definition",
+        "A person who manufactures a product that uses covered material AND owns/licenses the brand or trademark under which the product is sold/distributed in California."
+      ],
+      [
+        "Responsibility hierarchy",
+        "1) Brand/trademark owner → 2) if none in-state, the owner or exclusive in-state licensee → 3) if none, the seller/importer/distributor into the state. Sale 'occurs in the state' when covered material is delivered to a purchaser in California [§42041(w)(5)]."
+      ],
+      [
+        "Empty-packaging nuance",
+        "Per the final regulations, a company is NOT a producer merely by manufacturing or selling empty packaging; responsibility generally attaches when covered material accompanies a product placed into California commerce. Regulations also allow split responsibility."
+      ],
+      [
+        "Carve-out",
+        "Not a producer: a person who produces, harvests, and packages an agricultural commodity on the site where it was grown/raised [§42041(w)(4)]."
+      ]
+    ]
+  },
+  {
+    "heading": "3 · Covered material — and the exclusion vs. exemption distinction",
+    "rows": [
+      [
+        "Covered material",
+        "Single-use packaging (routinely discarded after use, not refilled/reused by producer) + plastic single-use food service ware (incl. plastic-coated paper/board and multilayer flexible) [§42041(e)(1)]."
+      ],
+      [
+        "Statutory EXCLUSIONS (out of scope)",
+        "Packaging for: medical devices/Rx drugs, animal drugs, infant formula, medical food, fortified oral nutrition; FIFRA pesticides; dangerous-goods/hazardous transport packaging; OSHA hazardous/flammable; beverage containers (Bottle Bill); long-term (≥5-yr lifespan) product packaging; architectural-paint program packaging [§42041(e)(2)(A)–(G)]."
+      ],
+      [
+        "Performance EXEMPTION (earned, conditional)",
+        "§42041(e)(2)(H): material NOT residentially collected, NOT separated at a commingled MRF, recycled at a responsible end market, AND ≥65% recycling rate for 3 yrs pre-2027 then ≥70% — provable to CalRecycle every 2 yrs. Partial qualification → only the qualifying portion is exempt."
+      ],
+      [
+        "Why it matters (strategy)",
+        "An EXCLUSION is categorical and permanent — the material is never 'covered'. An EXEMPTION is a status the producer must earn and re-prove; CalRecycle can also decline a small-producer exemption if it would impede a material category's compliance [§42060(a)(5)(B)]. Mischaracterising one as the other is a common and costly error."
+      ],
+      [
+        "Small-producer threshold",
+        "<$1,000,000 gross CA sales in the most recent calendar year may be exempted from most requirements — but never from §42050(b) (recyclable/compostable). CalRecycle may decline the exemption per §42060(a)(5)(B)."
+      ]
+    ]
+  },
+  {
+    "heading": "4 · Performance targets  [§42050, §42057]",
+    "rows": [
+      [
+        "Requirement",
+        "2025",
+        "2028",
+        "2030",
+        "2032"
+      ],
+      [
+        "Plastic recycling rate [§42050(c)]",
+        "—",
+        "30%",
+        "40%",
+        "65%"
+      ],
+      [
+        "Source reduction, plastic covered material [§42057(a)]",
+        "—",
+        "—",
+        "≥20%",
+        "25% (weight & components)"
+      ],
+      [
+        "…of which via reuse/refill or elimination",
+        "—",
+        "—",
+        "≥4%",
+        "≥10% of the reduction"
+      ],
+      [
+        "EPS food service ware recycling rate [§42057(i)]",
+        "25%",
+        "30%",
+        "50%",
+        "65%"
+      ],
+      [
+        "All covered material recyclable OR compostable [§42050(b)]",
+        "—",
+        "—",
+        "—",
+        "100%"
+      ]
+    ]
+  },
+  {
+    "heading": "5 · Fees & the $500M surcharge  [§42053, §42053.5, §42064]",
+    "rows": [
+      [
+        "Programme (PRO) fee [§42053]",
+        "Set by CAA to fully fund the plan; eco-modulated — lower for easy-to-recycle/PCR-rich materials, malus fees for hard-to-recycle/toxic/non-optimised. May NOT be itemised to consumers on a receipt. 'Early fees' invoiced mid-2026 on CY2025 supply data; full fees from the 2027 program year."
+      ],
+      [
+        "CA Circular Economy Admin Fee (CCEA) [§42053.5]",
+        "PRO pays CalRecycle quarterly from end of FY2026–27 to cover the State's actual implementation/enforcement cost; deposited in the California Circular Economy Fund."
+      ],
+      [
+        "$500M environmental mitigation surcharge [§42064]",
+        "PRO remits $500,000,000/yr, 2027–2037, to the California Plastic Pollution Mitigation Fund (via CDTFA). Allocated by producer plastic market share (weight & component count); paid by 1 Jul annually. PRO may collect ≤$150M of it from plastic-resin manufacturers (but remains liable for the full amount). Sunsets 1 Jan 2037 [§42064(n)]."
+      ],
+      [
+        "Reserves cap [§42051.1(j)(3)]",
+        "PRO program reserves ≤60% of annual operating expenses (up to 75% with CalRecycle approval)."
+      ]
+    ]
+  },
+  {
+    "heading": "6 · Enforcement & individual-compliance test",
+    "rows": [
+      [
+        "Penalties [§42081]",
+        "Up to $50,000 per day, per violation ($25,000/day for small producers). A violation is assessed by brand/product line/form/category/size. Penalties do not begin accruing until 30 days after notice of violation."
+      ],
+      [
+        "Corrective action plans [§42081(b)]",
+        "Up to 24 months (+12-month extension on substantial-effort showing). If followed, no penalty and not listed as non-compliant for the covered material."
+      ],
+      [
+        "Public non-compliance list [§42082]",
+        "CalRecycle posts non-compliant producers/categories at least every 6 months."
+      ],
+      [
+        "Market-share offset [§42083]",
+        "A producer may keep selling a category that misses the recycling rate if it demonstrates it achieved the rate for an amount equal to its market share of that category."
+      ],
+      [
+        "Individual-compliance criteria [§42051(b)(2)]",
+        "Either: (i) ≥65% recycling rate for 3 consecutive yrs pre-2027 then ≥70%; OR ALL of — net ≥5% source reduction 2013–2022 via refill/reuse/elimination; net ≥8% via optimization/concentration/right-size/bulk/non-plastic/lightweighting; AND ≥75% of CA covered material in a category meeting a 30% recycling rate as of 1 Jan 2023."
+      ]
+    ]
+  }
+]

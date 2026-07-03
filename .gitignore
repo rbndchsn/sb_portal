@@ -1,0 +1,13 @@
+# SB 54 portal — publish ONLY the static site (public/).
+# Keep the private drafting factory, internal planning, and build scripts
+# out of this PUBLIC repo. They stay in your local folder / GDrive.
+
+content_factory/
+docs/
+tools/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/

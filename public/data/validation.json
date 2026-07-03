@@ -1,0 +1,145 @@
+{
+  "composite": "Composite reliability of the workbook ≈ 6.5–7 / 10, weighted toward the layers you actually act on. Read this before quoting anything elsewhere.",
+  "sheets": [
+    {
+      "Sheet": "Read Me",
+      "Trust /10": "8.0",
+      "Band": "High",
+      "How it was created": "Hand-written navigation + YAML-style metadata. Live cells use COUNTIF/COUNTA to read the other sheets, so the counts update if the data changes.",
+      "Main risks of error": "Low — it describes the workbook rather than asserting outside facts. The dated status line and the 'effective May 2026' note can age.",
+      "Pros": "Single front door; self-documents scope, method and the not-legal-advice disclaimer; metrics recompute automatically.",
+      "Cons / limits": "Not a source of obligations; intentionally high-level.",
+      "What a human must do": "Read it first. Confirm the version and date still match the copy you are working from."
+    },
+    {
+      "Sheet": "Company Action Checklist",
+      "Trust /10": "7.0",
+      "Band": "Moderate",
+      "How it was created": "Two layers. (1) Verbatim spine — every operative 'shall' sentence pulled from the bill (1 Legislative-Counsel digest line removed). (2) Derived columns — Company-Facing?, Responsible Party, Operational Action (2026) — inferred from the curated actor field and the statute text, with basis tagged Explicit / Inferred / Unresolved.",
+      "Main risks of error": "The verbatim layer is reliable. The DERIVED columns are judgement: company-facing flags and party buckets can be drawn differently for your portfolio, and the 2026 operational mapping is by code-section — a pointer, not a determination.",
+      "Pros": "Complete and traceable to bill order; one filter isolates producer/PRO duties; ties dry statute to the real-world action; attribution basis is shown, not hidden.",
+      "Cons / limits": "486 rows is a lot to triage; classifications are first-pass; 'Unresolved' rows still need a human read; status/owner/evidence columns are empty by design.",
+      "What a human must do": "Filter Col K = 'Yes' and validate those rows against your actual products and supply chain. Spot-check the section citations. Treat Col M as 'start here', then confirm against CAA/CalRecycle guidance and counsel."
+    },
+    {
+      "Sheet": "Operational Calendar 2026",
+      "Trust /10": "7.0",
+      "Band": "Moderate",
+      "How it was created": "Statutory dates read from the bill; the 2026 regulatory / CAA / litigation dates assembled from CalRecycle and CAA primary pages plus ~10 law-firm alerts, then re-verified by deep web search on 2026-06-24.",
+      "Main risks of error": "Most perishable sheet. CAA non-statutory dates (e.g. the ISR-plan deadline) can move; 'early-fee' timing is approximate; a preliminary injunction in the federal suit could pause obligations. Status pills reflect 2026-06-24 and will drift.",
+      "Pros": "Shows what actually binds a producer now, not just statutory dates; separates STAT/REG/CAA/REL; the two filed lawsuits and the CAA budget are captured; the watch block flags legal risk in both directions.",
+      "Cons / limits": "A snapshot of a fast-moving program; '~' and 'Mid-2026' entries are deliberately soft; it does not track docket movement after 2026-06-24.",
+      "What a human must do": "Re-check before relying, especially anything dated today or later. Watch the federal-suit injunction motion, the 26 Jun board meeting and the Oct final-plan step. Confirm CAA dates in the producer portal."
+    },
+    {
+      "Sheet": "Producer Pathways & Key Facts",
+      "Trust /10": "7.5",
+      "Band": "Moderate",
+      "How it was created": "Synthesised from a direct read of SB 54 (definitions, targets, fees, penalties) plus the pathway / exclusion detail from CalRecycle guidance and law-firm analyses.",
+      "Main risks of error": "Substance is solid, but subsection lettering (e.g. §42041(e)(2)(x)) is easy to mis-cite from a read; the small-producer threshold and several specifics live in the regulations (Title 14, Ch. 11.1), not the statute, and can change; the 'direct-conflict' exclusion is NOT self-executing — it needs notice + justification to CalRecycle.",
+      "Pros": "Captures the high-value exclusion-vs-exemption distinction and the producer hierarchy; targets and the $500M surcharge mechanics in one place; decision-oriented.",
+      "Cons / limits": "Reference, not advice; thresholds and procedural steps must be confirmed against current regs; does not reproduce regulatory text.",
+      "What a human must do": "Verify every cited § and the small-producer threshold against the current chaptered statute and Title 14 Ch. 11.1. Have counsel confirm any exclusion/exemption position before acting."
+    },
+    {
+      "Sheet": "Shall-Clause Audit",
+      "Trust /10": "9.0",
+      "Band": "High",
+      "How it was created": "Mechanical extraction: each distinct sentence containing 'shall' carried verbatim from the source bill, with per-sentence counts summing to the 378 'shall' total. Exists to prove the checklist is complete and nothing was invented.",
+      "Main risks of error": "One real risk: it is faithful to the UPLOADED bill markdown, which was NOT independently confirmed against the official chaptered text on Leginfo. If that file was an as-introduced or superseded version, the audit inherits the error.",
+      "Pros": "Highest-integrity sheet; fully verbatim; reconciles to a hard count; makes the whole workbook auditable.",
+      "Cons / limits": "Raw statutory language, not interpretation; little workflow value on its own.",
+      "What a human must do": "Confirm the uploaded bill is the current chaptered SB 54 (Ch. 75, Statutes of 2022, as amended) at leginfo.legislature.ca.gov. If it differs, re-run the extraction."
+    },
+    {
+      "Sheet": "Sources & References",
+      "Trust /10": "8.0",
+      "Band": "High",
+      "How it was created": "Each operational claim is keyed to a numbered source — CalRecycle / CAA primary pages plus dated law-firm alerts and trade press — with URLs and a 2026-06-24 retrieval date.",
+      "Main risks of error": "URLs and dates are accurate as retrieved, but pages get updated or moved; law-firm and trade summaries simplify, and occasionally differ on soft dates.",
+      "Pros": "Makes the operational layer checkable; favours primary sources; dated, so staleness is visible.",
+      "Cons / limits": "Secondary sources are interpretation; not a substitute for the regs or the court dockets.",
+      "What a human must do": "Click through to the primary source (CalRecycle, CAA, or the court filing) before quoting or relying. Re-pull before any external use."
+    },
+    {
+      "Sheet": "Re-verification log — 2026-06-24 (deep web search, CalRecycle + CAA primary + trade/legal press)",
+      "Trust /10": "",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Confirmed unchanged",
+      "Trust /10": "Permanent regs effective 1 May 2026; the 1 Jun 2026 registration deadline stood; CAA submitted its draft program plan on 15 Jun 2026; the 1 Jul baseline report, 14 Aug comment close, 1 Nov baseline update and 1 Jan 2027 full implementation are all intact; EPS food service ware remains prohibited (the 25% recycling rate is still unmet).",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Changed since the prior build — now reflected",
+      "Trust /10": "Both legal challenges moved from 'announced / expected' to FILED: the environmental NGO suit (NRDC + Californians Against Waste Fdn + Oceana) on 2 Jun 2026 in SF Superior Court, and a NEW federal suit by 17 state AGs + NAW on 22 Jun 2026 (E.D. Cal., No. 2:26-at-01047) that asks the court to BLOCK enforcement. Also added: the CAA program-plan budget ($1.87B in 2027; $9.35B–$17.2B over five years), the 26 Jun Advisory Board meeting, the 8 Jul CAA webinar, the Oct 2026 final-plan submission, the Oregon merits trial (13–17 Jul), and the Title 14, Div. 7, Ch. 11.1 codification.",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Net effect on trust",
+      "Trust /10": "The calendar and litigation content is now current as of 2026-06-24. The single biggest open item is unchanged: the source bill text was trusted, not verified against the official chaptered statute.",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Overall method & known limitations",
+      "Trust /10": "",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Composite reliability ≈ 6.5–7 / 10, weighted toward the layers you act on. Verbatim extraction and sourcing are strong; the derived classifications and the (now-refreshed but still perishable) operational dates carry more uncertainty.",
+      "Trust /10": "",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "Three things hold it back from a higher score: (1) the uploaded bill text was trusted, not verified against the official chaptered statute; (2) operational / CAA dates and litigation status keep moving — re-verify before relying; (3) company-facing flags and section-level citations are first-pass and need a human / counsel pass.",
+      "Trust /10": "",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    },
+    {
+      "Sheet": "COMPLIANCE-SUPPORT MATERIAL — NOT LEGAL ADVICE. Engage qualified counsel before acting on any position in this workbook.",
+      "Trust /10": "",
+      "Band": "",
+      "How it was created": "",
+      "Main risks of error": "",
+      "Pros": "",
+      "Cons / limits": "",
+      "What a human must do": ""
+    }
+  ]
+}
