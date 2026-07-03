@@ -11,3 +11,7 @@ tools/
 Thumbs.db
 *.swp
 .vscode/
+
+# Actions workflow not used with branch/root deploy
+.github/
+_captest*
