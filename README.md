@@ -45,43 +45,49 @@ built into the pipeline, not the prompt.
 
 ## Architecture (Sheet → CSV → JSON → static site)
 
+The working folder holds both the private factory and the published site. Only the
+site files at the repo root are pushed to GitHub; the factory, tools, and internal
+docs are gitignored and stay local.
+
 ```
 sb54-portal/
-├── content_factory/         PRIVATE. Never published (Pages serves /public only).
-│   ├── sources/             The SB 54 workbook (source of truth) + bill text.
-│   ├── extraction/
-│   │   └── extract_sb54.py  Deterministic: workbook → public/data/*.json.
-│   └── staging/             Draft Q&A candidates awaiting review (factory output).
-├── tools/
-│   └── build.sh             One-command re-emit of the data files.
-├── public/                  THE SITE. This is what GitHub Pages serves.
-│   ├── index.html
-│   ├── css/style.css
-│   ├── js/app.js            Loads ./data/*.json; drives all panels. No framework.
-│   └── data/                Read-only JSON. Generated — do not hand-edit.
-│       ├── requirements.json
-│       ├── meta.json
-│       ├── calendar.json
-│       ├── pathways.json
-│       ├── sources.json
-│       └── validation.json
-├── docs/
-│   └── PLAN.md
-└── README.md
+│   (Published: the repo root IS the site GitHub Pages serves)
+├── index.html
+├── css/style.css
+├── js/app.js               Loads ./data/*.json; drives all panels. No framework.
+├── data/                   Read-only JSON. Generated: do not hand-edit.
+│   ├── requirements.json   meta.json   calendar.json
+│   ├── pathways.json   sources.json   validation.json
+│   └── answers.json        Approved Q&A only (approved rows from answers.csv).
+├── .nojekyll
+├── .github/workflows/pages.yml   Deploys the repo root to Pages on every push.
+├── README.md
+│
+│   (Private: gitignored, never pushed to the public repo)
+├── content_factory/
+│   ├── sources/            The SB 54 workbook (source of truth) + bill text.
+│   ├── extraction/         extract_sb54.py, build_answers.py, make_answers_json.py.
+│   └── staging/            answers.csv (the Q&A bank with approval status).
+├── tools/build.sh          One-command re-emit of the data files.
+└── docs/                   PLAN.md, PUBLISH.md, REVERIFICATION_2026-07-03.md
 ```
 
 **Source of truth is the workbook** (a Google Sheet in production). The extractor
-reads it and writes the JSON the site serves. The JSON is disposable output — to
+reads it and writes the JSON the site serves. The JSON is disposable output; to
 change content, change the workbook and re-run the extractor. The site itself has
-no build step: open `public/index.html` and it runs.
+no build step; open `index.html` and it runs.
 
 ## Rebuild the data
 
 ```bash
+# 1. rebuild the six reference JSON files from the workbook
 python3 content_factory/extraction/extract_sb54.py \
         content_factory/sources/SB54_workbook.xlsx \
-        public/data
-# or:
+        data
+# 2. re-emit the approved answers (omit --include-drafts to publish approved only)
+python3 content_factory/extraction/make_answers_json.py \
+        content_factory/staging/answers.csv data/answers.json
+# or run step 1 via the helper:
 bash tools/build.sh
 ```
 
