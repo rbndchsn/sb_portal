@@ -134,5 +134,8 @@
         "count": 67
       }
     ]
-  }
+  },
+  "register_version": "v0.1",
+  "schema_version": "v2",
+  "source_content_date": "2026-07-05"
 }
